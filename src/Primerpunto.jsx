@@ -44,7 +44,6 @@ const Navigator = () => {
 };
 
 const Content = () => {
-  // Deberá retornar un contenedor de rutas, con las rutas correspondientes a cada componente dentro.
   return (
     <Routes>
       <Route path="/" element={<Home />} />
